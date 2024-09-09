@@ -111,7 +111,7 @@ const experiences = [
     company_name: "Coppel.com",
     icon: coppel,
     iconBg: "#ffe500",
-    date: "Agosto 2022 - Agosto 2023",
+    date: "Septiembre 2022 - Agosto 2023",
     points: [
       "Implementación de estándares de arquitectura.",
       "Correcciones de errores de la aplicación.",
