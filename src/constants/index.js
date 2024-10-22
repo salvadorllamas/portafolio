@@ -24,8 +24,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-import { coppel, neoredes, tdcon, itzas } from '../assets/company';
-
+import { coppel, neoredes, tdcon, itzas } from "../assets/company";
 
 // import coppel from "../assets/company/coppel.png";
 // import neoredes from "../assets/company/neoredes.jpg";
@@ -37,7 +36,11 @@ import {
   guitarras,
   menu1,
   contadordeCalorias,
-  dudulkits
+  dudulkits,
+  webIngles,
+  web1,
+  web2,
+  web3,
 } from "../assets/proyectos";
 
 export const navLinks = [
@@ -222,6 +225,93 @@ const projects = [
     source_code_link: "https://dudulkids.com/",
   },
   {
+    name: "Aprender Inglés",
+    description:
+      "He construido mi propia plataforma para aprender inglés, diseñada específicamente para guiarme en un proceso de aprendizaje paso a paso.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: webIngles,
+    source_code_link: "https://ingles-web.vercel.app/",
+  },
+  {
+    name: "Web 1 con Diseño Real",
+    description:
+      "El sitio web ha sido desarrollado a partir de un diseño real y cuidadosamente implementado para ofrecer una experiencia visualmente atractiva.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: web1,
+    source_code_link: "https://web1-six-lime.vercel.app/",
+    source_code_link2: "https://github.com/salvadorllamas/web1",
+  },
+  {
+    name: "Web 2 con Diseño Real",
+    description:
+      "El sitio web ha sido desarrollado a partir de un diseño real y cuidadosamente implementado para ofrecer una experiencia visualmente atractiva.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: web2,
+    source_code_link: "https://web2-phi-ruby.vercel.app/",
+    source_code_link2: "https://github.com/salvadorllamas/web2",
+  },
+  {
+    name: "Web 3 con Diseño Real",
+    description:
+      "El sitio web ha sido desarrollado a partir de un diseño real y cuidadosamente implementado para ofrecer una experiencia visualmente atractiva.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: web3,
+    source_code_link: "https://web3-liart-ten.vercel.app/",
+    source_code_link2: "https://github.com/salvadorllamas/web3",
+  },
+  {
     name: "CalorieTracker Plus",
     description:
       "Aplicación de conteo de calorías permite a los usuarios registrar tanto las calorías que consumen como las calorías que queman a través del ejercicio.",
@@ -241,7 +331,8 @@ const projects = [
     ],
     image: contadordeCalorias,
     source_code_link: "https://contadorcalorias.llamaswebs.com/",
-    source_code_link2: "https://github.com/salvadorllamas/CalorieTrackerPlus.git",
+    source_code_link2:
+      "https://github.com/salvadorllamas/CalorieTrackerPlus.git",
   },
   {
     name: "Bytevistro",
